@@ -113,8 +113,5 @@ DELETE FROM mesa;
 DELETE FROM partido;
 DELETE FROM votacion;
 
-# Cargar tablas temporales
-
-
     
 DROP TEMPORARY TABLE IF EXISTS TempTable;

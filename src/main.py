@@ -323,7 +323,7 @@ def cargar_modelo():
         #return jsonify({"message": "Data copied to permanent tables"})
 
         db.session.commit()
-        return jsonify({"message": "Data copied to permanent tables"})
+        return jsonify({"message": "Informacion trasladada y normalizada a tablas permanentes"})
     except Exception as e:
         return jsonify({"error": str(e)})
 
